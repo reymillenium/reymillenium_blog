@@ -1,0 +1,289 @@
+
+/* Seting the background to the web page */
+body {
+    background-image: url('../images/sativa.png');
+}
+
+/*------------------------------------------------------------------------------
+                       -->  Barra de Navegación  <--  
+------------------------------------------------------------------------------*/
+
+
+/* Fondo general */
+
+#nav_top.navbar {
+    background-color: #2b2b2b !important;
+    /*background-color: (var --primaryBlackSpecialColor) !important;*/
+}
+
+
+/* Marca de la barra de navegación */
+
+#nav_top .navbar-brand:link, #nav_top .navbar-brand:visited {
+    color: deepskyblue !important;
+}
+
+#nav_top .navbar-brand:hover, #nav_top .navbar-brand:active 
+{
+    color: white !important;
+}
+
+
+/* Items de la barra de navegación */
+
+#nav_top .navbar-nav .nav-link:link, #nav_top .navbar-nav .nav-link:visited {
+    color: white!important;
+}
+
+#nav_top .navbar-nav .nav-link:hover, #nav_top .navbar-nav .nav-link:active 
+{
+    color: deepskyblue!important;
+}
+
+
+
+
+
+/* Efecto hover sobre los dropdown-item del menú del NavBar */
+.dropdown-menu {
+    background-color: #2b2b2b !important;
+}
+
+.dropdown-menu .dropdown-item {
+    color: white;
+    /*background-color: #2b2b2b;*/
+
+}
+
+.dropdown-menu .dropdown-item:hover {
+    color: deepskyblue;
+    background-color: white;
+}
+
+
+
+
+/* Formulario a la derecha de la barra de navegación */
+
+#nav_top form.form-inline button {
+    color: white;
+}
+
+#nav_top form.form-inline button:hover {
+    color: deepskyblue;
+}
+
+#nav_top {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 1000;
+}
+
+
+/*------------------------------------------------------------------------------
+                       -->  Jumbotron  <--  
+------------------------------------------------------------------------------*/
+
+.jumbotron {
+    background-color: #AAE0F2;
+    /*margin-top: 56px;*/
+    margin-top: -0.15em;
+    background-color: deepskyblue;
+    /* Game */
+    /*background-image: url("../images/games-wallpapers-2560x1600-00020.jpg");*/
+    /* Computer */
+    background-image: url("../images/laptop-notebook-keyboard-technology-banner-black-silver-keys-letters-input-multimedia-leave-enter-computer-keyboard-header-head-image-numeric-keypad-electronic-device-musical-keyboard-electronic-keyboard-625551.jpg");
+    background-size: cover;
+    color: white;
+    /*height: 240px;*/
+    height: 12em;
+}
+
+.jumbotron h1 {
+    margin-top: 20px;
+    color: white;
+}
+
+.jumbotron p {
+    /*border-color: black;*/
+    /*-webkit-text-fill-color: yellowgreen;*/
+    /*    -webkit-text-stroke: 1px black;*/
+    /*-webkit-text-stroke-color: black;*/
+    color: white;
+
+}
+
+
+/*------------------------------------------------------------------------------
+-->  Columna Izquierda  <--  
+------------------------------------------------------------------------------*/
+
+#div_left_column .card-header {
+    /*background-color: #AAE0F2;*/
+    background-color: deepskyblue;
+    color: white;
+}
+
+#div_left_column .card-body {
+    color: #2b2b2b;
+}
+
+
+/*------------------------------------------------------------------------------
+-->  Columna Derecha  <--  
+------------------------------------------------------------------------------*/
+
+#div_right_column .card-header {
+    /*background-color: #AAE0F2;*/
+    background-color: deepskyblue;
+    color: white;
+}
+
+#div_right_column .card-body {
+    color:  #2b2b2b;
+    /*color: black;*/
+}
+
+/*------------------------------------------------------------------------------
+-->  Encabezamientos de Card-Header  <--  
+------------------------------------------------------------------------------*/
+
+.card-header {
+    /*background-color: #AAE0F2;*/
+    background-color: deepskyblue;
+    color: white;
+}
+
+
+/*------------------------------------------------------------------------------
+-->  Containers centrados  <--  
+------------------------------------------------------------------------------*/
+
+.center_div {
+    margin: 0px auto;
+    width: 100%; /* value of your choice which suits your alignment */
+}
+
+
+
+/* -------------------------------------------------------------------------------------------------------------- */
+
+
+
+/*------------------------------------------------------------------------------
+-->  Post_Page  <--  
+------------------------------------------------------------------------------*/
+
+.post-article {
+    background-color: white;
+    padding: 2em;
+}
+
+
+/*------------------------------------------------------------------------------
+-->  new login-icon Class with Font Awesome  <--  
+------------------------------------------------------------------------------*/
+
+
+.login-icon-md-1 {
+    padding-left: 2.1%;
+}
+
+.login-icon-md-1-vs-md8 {
+    padding-left: 2.1%;
+}
+
+/*------------------------------------------------------------------------------
+-->  Links  <--  
+------------------------------------------------------------------------------*/
+
+a.no-decoration:hover {
+    text-decoration: none;
+}
+
+
+
+/*------------------------------------------------------------------------------
+-->  Select with Awesome Icons  <--  
+------------------------------------------------------------------------------*/
+
+
+@import url("http://fontawesome.io/assets/font-awesome/css/font-awesome.css");
+select { font-family: 'FontAwesome', Verdana }
+
+/*------------------------------------------------------------------------------
+-->  Manager Page Generic  <--  
+------------------------------------------------------------------------------*/
+
+#gm_posts {
+    background-color: deepskyblue;
+}
+
+#gm_comments {
+    background-color: #029ac4;
+}
+
+#gm_favorits {
+    background-color: #394a66;
+}
+
+.gm_element {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    color: white;
+}
+
+.gm_element:hover {
+    background-color: #2b2b2b !important;
+    color: deepskyblue;
+}
+
+/*------------------------------------------------------------------------------
+-->  Botón de Nueva Entrada en la Plantilla de Gestión de Entradas  <--  
+------------------------------------------------------------------------------*/
+
+#btn_new_post {
+    /*background-color: #029ac4;*/
+    background-color: #328aa4 !important;
+    color: white;
+    border-color:  #328aa4 !important;
+}
+
+#btn_new_post:hover {
+    background-color: #2b2b2b !important;
+    color: deepskyblue;
+    border-color:  #2b2b2b !important;
+}
+
+/*------------------------------------------------------------------------------
+-->  Botón de Nuevo Usuario en la Plantilla de Gestión de Usuarios  <--  
+------------------------------------------------------------------------------*/
+
+#btn_new_user {
+    /*background-color: #029ac4;*/
+    background-color: #328aa4 !important;
+    color: white;
+    border-color:  #328aa4 !important;
+}
+
+#btn_new_user:hover {
+    background-color: #2b2b2b !important;
+    color: deepskyblue;
+    border-color:  #2b2b2b !important;
+}
+
+/*------------------------------------------------------------------------------
+-->  Enlace de Búsqueda Avanzada en la Columna Izquierda  <--  
+------------------------------------------------------------------------------*/
+
+#a_advanced_search {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+/* Test: Cambiar de puntos a asteriscos en inputs tipo password */
+
+/*input[type="password"]{
+-webkit-text-security: block;
+}*/

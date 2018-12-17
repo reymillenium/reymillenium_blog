@@ -1,0 +1,217 @@
+@charset "UTF-8";
+/* 
+    Created on : Mar 16, 2018, 2:19:07 AM
+    Author     : Reinier
+*/
+/* Importamos todas las constantes del proyecto */
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 16, 2018, 2:22:42 AM
+    Author     : Reinier
+*/
+/*------------------------------------------------------------------------------
+                           -->  COLORES  <--  
+------------------------------------------------------------------------------*/
+/* Variaciones de negro */
+/* Variaciones de azul */
+/* Blue deprecated */
+/* Variaciones de Blanco */
+/* Importamos los fonts necesarios */
+@import url("http://fontawesome.io/assets/font-awesome/css/font-awesome.css");
+/* Setting the general background of the web page */
+body {
+  background-image: url("../images/sativa.png"); }
+
+/*------------------------------------------------------------------------------
+                       -->  Barra de Navegaci├│n  <--  
+------------------------------------------------------------------------------*/
+#nav_top {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  z-index: 1000;
+  /* Fondo general */
+  /* Marca de la barra de navegaci├│n */
+  /* Items de la barra de navegaci├│n */
+  /* Formulario a la derecha de la barra de navegaci├│n */ }
+  #nav_top.navbar {
+    background-color: #2b2b2b !important; }
+  #nav_top .navbar-brand:link, #nav_top .navbar-brand:visited {
+    color: deepskyblue !important; }
+  #nav_top .navbar-brand:hover, #nav_top .navbar-brand:active {
+    color: white !important; }
+  #nav_top .navbar-nav .nav-link:link, #nav_top .navbar-nav .nav-link:visited {
+    color: white !important; }
+  #nav_top .navbar-nav .nav-link:hover, #nav_top .navbar-nav .nav-link:active {
+    color: deepskyblue !important; }
+  #nav_top form.form-inline button {
+    color: white; }
+    #nav_top form.form-inline button:hover {
+      color: deepskyblue; }
+
+/* Efecto hover sobre los dropdown-item del men├║ del NavBar */
+.dropdown-menu {
+  background-color: #2b2b2b !important; }
+  .dropdown-menu .dropdown-item {
+    color: white; }
+    .dropdown-menu .dropdown-item:hover {
+      color: deepskyblue;
+      background-color: white; }
+
+/*------------------------------------------------------------------------------
+                           -->  Jumbotron  <--  
+------------------------------------------------------------------------------*/
+.jumbotron {
+  background-color: deepskyblue;
+  margin-top: -0.15em;
+  /* Computer Picture */
+  background-image: url("../images/laptop-notebook-keyboard-technology-banner-black-silver-keys-letters-input-multimedia-leave-enter-computer-keyboard-header-head-image-numeric-keypad-electronic-device-musical-keyboard-electronic-keyboard-625551.jpg");
+  background-size: cover;
+  color: white;
+  height: 12em; }
+  .jumbotron h1 {
+    margin-top: 20px;
+    color: white; }
+  .jumbotron p {
+    color: white; }
+
+/*------------------------------------------------------------------------------
+                        -->  Columna Izquierda  <--  
+------------------------------------------------------------------------------*/
+#div_left_column .card-header {
+  background-color: #328aa4;
+  color: white; }
+#div_left_column .card-body {
+  color: #2b2b2b; }
+
+/*------------------------------------------------------------------------------
+                            -->  Columna Derecha  <--  
+------------------------------------------------------------------------------*/
+#div_right_column .card-header {
+  background-color: #328aa4;
+  color: white; }
+#div_right_column .card-body {
+  color: #2b2b2b; }
+
+/*------------------------------------------------------------------------------
+                -->  Encabezamientos de Card-Header  <--  
+------------------------------------------------------------------------------*/
+.card-header {
+  background-color: #328aa4;
+  color: white; }
+
+/*------------------------------------------------------------------------------
+                    -->  Containers centrados  <--  
+------------------------------------------------------------------------------*/
+.center_div {
+  margin: 0px auto;
+  width: 100%; }
+
+/*------------------------------------------------------------------------------
+                            -->  Post_Page  <--  
+------------------------------------------------------------------------------*/
+.post-article {
+  background-color: white;
+  padding: 2em; }
+
+/*------------------------------------------------------------------------------
+                -->  new login-icon Class with Font Awesome  <--  
+------------------------------------------------------------------------------*/
+.login-icon-md-1 {
+  padding-left: 2.1%; }
+
+.login-icon-md-1-vs-md8 {
+  padding-left: 2.1%; }
+
+/*------------------------------------------------------------------------------
+                            -->  Links  <--  
+------------------------------------------------------------------------------*/
+a.no-decoration:hover {
+  text-decoration: none; }
+
+/*------------------------------------------------------------------------------
+                    -->  Select with Awesome Icons  <--  
+------------------------------------------------------------------------------*/
+select {
+  font-family: "FontAwesome", Verdana; }
+
+/*------------------------------------------------------------------------------
+                        -->  Manager Page Generic <--  
+------------------------------------------------------------------------------*/
+#gm_posts {
+  background-color: deepskyblue; }
+
+#gm_comments {
+  background-color: #328aa4; }
+
+#gm_favorits {
+  background-color: #394a66; }
+
+.gm_element {
+  padding-top: 1em;
+  padding-bottom: 1em;
+  color: white; }
+  .gm_element:hover {
+    background-color: #2b2b2b !important;
+    color: deepskyblue; }
+
+/*------------------------------------------------------------------------------
+    -->  Bot├│n de Nueva Entrada en la Plantilla de Gesti├│n de Entradas  <--  
+------------------------------------------------------------------------------*/
+#btn_new_post {
+  background-color: #328aa4 !important;
+  color: white;
+  border-color: #328aa4 !important; }
+  #btn_new_post:hover {
+    background-color: #2b2b2b !important;
+    color: deepskyblue;
+    border-color: #2b2b2b !important; }
+
+/*------------------------------------------------------------------------------
+    -->  Bot├│n de Nuevo Usuario en la Plantilla de Gesti├│n de Usuarios  <--  
+------------------------------------------------------------------------------*/
+#btn_new_user {
+  background-color: #328aa4 !important;
+  color: white;
+  border-color: #328aa4 !important; }
+  #btn_new_user:hover {
+    background-color: #2b2b2b !important;
+    color: deepskyblue;
+    border-color: #2b2b2b !important; }
+
+/*------------------------------------------------------------------------------
+            -->  Enlace de B├║squeda Avanzada en la Columna Izquierda  <--  
+------------------------------------------------------------------------------*/
+#a_advanced_search {
+  color: #328aa4;
+  text-decoration: none; }
+
+/*------------------------------------------------------------------------------
+                       -->  Profile Image  <--  
+------------------------------------------------------------------------------*/
+#div_profile_image {
+  /*margin-left: 0;*/
+  /*border: 2px solid $black_special_light_color;*/
+  /*height: 200px;*/
+  /*width: 200px;*/ }
+  #div_profile_image #img_profile_image {
+    /*max-height: 100%;*/
+    /*max-width: 100%;*/
+    /*height: 240px;*/
+    /*width: 240px;*/
+    /*border: 1px solid $blue_bright_color;*/ }
+
+/* Input files */
+.inputfile {
+  width: 0.1px;
+  height: 0.1px;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1; }
+
+/*# sourceMappingURL=NewStyle.css.map */

@@ -1,0 +1,289 @@
+/* 
+    Created on : Mar 16, 2018, 2:19:07 AM
+    Author     : Reinier
+*/
+
+/* Importamos todas las constantes del proyecto */
+@import "_constants.scss";
+
+/* Importamos los fonts necesarios */
+@import url("http://fontawesome.io/assets/font-awesome/css/font-awesome.css");
+
+/* Setting the general background of the web page */
+body {
+    background-image: url('../images/sativa.png');
+}
+
+
+/*------------------------------------------------------------------------------
+                       -->  Barra de Navegación  <--  
+------------------------------------------------------------------------------*/
+#nav_top {
+
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 1000;
+
+    /* Fondo general */
+    &.navbar {
+        background-color: $black_special_light_color !important; 
+    }
+
+    /* Marca de la barra de navegación */
+    .navbar-brand {
+
+        &:link, &:visited {
+            color: $blue_bright_color !important;
+        }
+
+        &:hover, &:active {
+            color: $white_pure_color !important;
+        }
+    }
+
+    /* Items de la barra de navegación */
+    .navbar-nav {
+
+        .nav-link {
+            &:link, &:visited  {
+                color: $white_pure_color !important;
+            }
+
+            &:hover, &:active  {
+                color: $blue_bright_color !important;
+            }  
+        }
+    }
+
+    /* Formulario a la derecha de la barra de navegación */
+    form.form-inline button {
+        color: $white_pure_color;
+
+        &:hover {
+            color: $blue_bright_color;
+        }
+    }
+}
+
+/* Efecto hover sobre los dropdown-item del menú del NavBar */
+.dropdown-menu {
+    background-color: $black_special_light_color !important;
+
+    .dropdown-item {
+        color: $white_pure_color;
+
+        &:hover {
+            color: $blue_bright_color;
+            background-color: $white_pure_color; 
+        }
+    }
+}
+
+
+/*------------------------------------------------------------------------------
+                           -->  Jumbotron  <--  
+------------------------------------------------------------------------------*/
+.jumbotron {
+    background-color: $blue_bright_color;
+    margin-top: -0.15em;
+    /* Computer Picture */
+    background-image: url("../images/laptop-notebook-keyboard-technology-banner-black-silver-keys-letters-input-multimedia-leave-enter-computer-keyboard-header-head-image-numeric-keypad-electronic-device-musical-keyboard-electronic-keyboard-625551.jpg");
+    background-size: cover;
+    color: $white_pure_color;
+    height: 12em;
+
+    h1 {
+        margin-top: 20px;
+        color: $white_pure_color;
+    }
+
+    p {
+        color: $white_pure_color;
+    }
+}
+
+
+/*------------------------------------------------------------------------------
+                        -->  Columna Izquierda  <--  
+------------------------------------------------------------------------------*/
+#div_left_column  {
+
+    .card-header {
+        background-color: $blue_new_discrete_color;
+        color: $white_pure_color;
+    }
+
+    .card-body {
+        color: $black_special_light_color;
+    }
+}
+
+
+/*------------------------------------------------------------------------------
+                            -->  Columna Derecha  <--  
+------------------------------------------------------------------------------*/
+#div_right_column {
+
+    .card-header {
+        background-color: $blue_new_discrete_color;
+        color: $white_pure_color;
+    }
+
+    .card-body {
+        color:  $black_special_light_color;
+    }
+}
+
+
+/*------------------------------------------------------------------------------
+                -->  Encabezamientos de Card-Header  <--  
+------------------------------------------------------------------------------*/
+.card-header {
+    background-color: $blue_new_discrete_color;
+    color: $white_pure_color;
+}
+
+
+/*------------------------------------------------------------------------------
+                    -->  Containers centrados  <--  
+------------------------------------------------------------------------------*/
+.center_div {
+    margin: 0px auto;
+    width: 100%;
+}
+
+
+/*------------------------------------------------------------------------------
+                            -->  Post_Page  <--  
+------------------------------------------------------------------------------*/
+.post-article {
+    background-color: $white_pure_color;
+    padding: 2em;
+}
+
+
+/*------------------------------------------------------------------------------
+                -->  new login-icon Class with Font Awesome  <--  
+------------------------------------------------------------------------------*/
+.login-icon-md-1 {
+    padding-left: 2.1%;
+}
+
+.login-icon-md-1-vs-md8 {
+    padding-left: 2.1%;
+}
+
+
+/*------------------------------------------------------------------------------
+                            -->  Links  <--  
+------------------------------------------------------------------------------*/
+a.no-decoration:hover {
+    text-decoration: none;
+}
+
+
+/*------------------------------------------------------------------------------
+                    -->  Select with Awesome Icons  <--  
+------------------------------------------------------------------------------*/
+select { font-family: 'FontAwesome', Verdana }
+
+
+/*------------------------------------------------------------------------------
+                        -->  Manager Page Generic <--  
+------------------------------------------------------------------------------*/
+#gm_posts {
+    background-color: $blue_bright_color;
+}
+
+#gm_comments {
+    background-color: $blue_new_discrete_color;
+}
+
+#gm_favorits {
+    background-color: #394a66;
+}
+
+.gm_element {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    color: $white_pure_color;
+
+    &:hover {
+        background-color: $black_special_light_color !important;
+        color: $blue_bright_color;
+    }
+}
+
+
+/*------------------------------------------------------------------------------
+    -->  Botón de Nueva Entrada en la Plantilla de Gestión de Entradas  <--  
+------------------------------------------------------------------------------*/
+#btn_new_post {
+    background-color: $blue_new_discrete_color !important;
+    color: $white_pure_color;
+    border-color: $blue_new_discrete_color !important;
+
+    &:hover {
+        background-color: $black_special_light_color !important;
+        color: $blue_bright_color;
+        border-color:  $black_special_light_color !important; 
+    }
+}
+
+
+/*------------------------------------------------------------------------------
+    -->  Botón de Nuevo Usuario en la Plantilla de Gestión de Usuarios  <--  
+------------------------------------------------------------------------------*/
+#btn_new_user {
+    background-color: $blue_new_discrete_color !important;
+    color: $white_pure_color;
+    border-color: $blue_new_discrete_color !important;
+
+    &:hover {
+        background-color: $black_special_light_color !important;
+        color: $blue_bright_color;
+        border-color:  $black_special_light_color !important;
+    }
+}
+
+
+/*------------------------------------------------------------------------------
+            -->  Enlace de Búsqueda Avanzada en la Columna Izquierda  <--  
+------------------------------------------------------------------------------*/
+#a_advanced_search {
+    color: $blue_new_discrete_color;
+    text-decoration: none;
+}
+
+
+/*------------------------------------------------------------------------------
+                       -->  Profile Image  <--  
+------------------------------------------------------------------------------*/
+
+#div_profile_image {
+    /*margin-left: 0;*/ 
+    /*border: 2px solid $black_special_light_color;*/
+
+    /*height: 200px;*/ 
+    /*width: 200px;*/ 
+
+    #img_profile_image {
+        /*max-height: 100%;*/ 
+        /*max-width: 100%;*/ 
+        /*height: 240px;*/ 
+        /*width: 240px;*/ 
+        /*border: 1px solid $blue_bright_color;*/ 
+    }
+}
+
+
+/* Input files */
+.inputfile {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}

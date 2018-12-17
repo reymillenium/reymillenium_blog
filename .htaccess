@@ -1,0 +1,20 @@
+# Hay dos formas de hacerlo
+# Hacerlo enteramemte en htaccess (muy primitivo y dificil de entender?)
+
+# Manejarlo de forma muy básica en htaccess y dejar el gran peso a PHP
+
+# Para que se puedan seguir los enlaces simbólicos
+Options +FollowSymLinks
+
+# Vamos a encender a continuación el motor de reescritura (si tenemos el módulo de reescritura cargado = mod_rewrite)
+RewriteEngine On
+
+# Permite que cualquier ruta de directorios (directory) que llamemos desde nuestros scripts sea utilizable
+RewriteCond %{SCRIPT_FILENAME} !-d
+
+# Permite que cualquier ruta de archivos (files) que llamemos desde nuestros scripts sea utilizable
+RewriteCond %{SCRIPT_FILENAME} !-f
+
+# Regla de Reescritura. Coger cualquier enlace que se escriba en la barra de direcciones y todos van a llamar a index.php
+RewriteRule ^.*$ ./index.php
+
